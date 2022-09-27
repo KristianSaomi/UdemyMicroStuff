@@ -1,0 +1,59 @@
+#firstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstSection h1 {
+    font-size: 30px;
+    font-family: 'Poppins', "Helvetica";
+    font-weight: 600;
+}
+
+#firstSection h1 {
+    display: block;
+}
+#firstSection input {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+#firstSection input::placeholder {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#firstSection button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    transition: 250ms ease-in-out
+}
+#firstSection button:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#firstSection #deleteBtn {
+    background-color: red;
+    position:fixed;
+    float: right;
+    right: 0;
+    margin-right: 10px;
+    transition: 250ms ease-in-out;
+}
+
+#firstSection #deleteBtn:hover {
+    background-color: red;
+    transform: skew(-5deg) scale(1.1);
+    margin-right: 20px;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
